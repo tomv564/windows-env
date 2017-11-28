@@ -9,13 +9,24 @@ Avoid terminal emulators and cygwin, use
 ### Clink
 
 Install patched build from https://github.com/Stanzilla/clink
+
 Apply settings from clink folder
+
+Install lua scripts to %LOCALAPPDATA%\clink and %LOCALAPPDATA%\clink-completions
+
+Make sure inject is setup like:
+"C:\Program Files (x86)\clink\DEV\clink.bat" inject --autorun --profile ~\clink
 
 API docs:
 https://github.com/mridgers/clink/blob/master/docs/api.md
 
 Clink completions library (used by Cmder):
 https://github.com/vladimir-kotikov/clink-completions
+
+
+### Console colors
+
+vendor microsoft's tool?
 
 Color testing:
 `type AnsiColors16.ans`
